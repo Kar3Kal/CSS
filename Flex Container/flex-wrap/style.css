@@ -1,0 +1,58 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: antiquewhite;
+}
+
+/* ---------------- flex-wrap: nowrap; ---------------- */
+/*flex Container*/
+.flex-container-nowrap {
+  display: flex; /*The flex container becomes flexible by setting the display property to flex:*/
+  flex-wrap: nowrap; /*flex-wrap property*/
+  background-color: dodgerblue;
+}
+
+/*flex Items*/
+.flex-container-nowrap > div {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px; /* The line-height property specifies the height of a line. */
+  font-size: 30px;
+}
+
+/* ---------------- flex-wrap: wrap; ---------------- */
+/*flex Container*/
+.flex-container-wrap {
+  display: flex; /*The flex container becomes flexible by setting the display property to flex:*/
+  flex-wrap: wrap; /*flex-wrap property*/
+  background-color: dodgerblue;
+}
+
+/*flex Items*/
+.flex-container-wrap > div {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px; /* The line-height property specifies the height of a line. */
+  font-size: 30px;
+}
+
+/* ---------------- flex-wrap: wrap-reverse; ---------------- */
+/*flex Container*/
+.flex-container-wrap-reverse {
+  display: flex; /*The flex container becomes flexible by setting the display property to flex:*/
+  flex-wrap: wrap-reverse; /*flex-wrap property*/
+  background-color: dodgerblue;
+}
+
+/*flex Items*/
+.flex-container-wrap-reverse > div {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px; /* The line-height property specifies the height of a line. */
+  font-size: 30px;
+}

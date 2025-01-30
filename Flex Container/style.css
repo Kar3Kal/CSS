@@ -1,0 +1,18 @@
+.flex-container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 10px; /* Adds space between links */
+}
+
+.buttons {
+  font-size: 2rem;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 10px;
+  padding: 10px;
+  width: 400px;
+}
+
+a {
+  text-decoration: none;
+}

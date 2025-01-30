@@ -1,0 +1,106 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: antiquewhite;
+}
+
+/* ----------------center--------------------- */
+/*flex Container*/
+.flex-container-center {
+  display: flex; /*The flex container becomes flexible by setting the display property to flex:*/
+  justify-content: center; /*justify-content property*/
+  background-color: dodgerblue;
+}
+
+/*flex Items*/
+.flex-container-center > div {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+
+/* ----------------flex-start--------------------- */
+.flex-container-flex-start {
+  display: flex; /*The flex container becomes flexible by setting the display property to flex:*/
+  justify-content: flex-start; /*justify-content property*/
+  background-color: dodgerblue;
+}
+
+/*flex Items*/
+.flex-container-flex-start > div {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+
+/* ----------------flex-end--------------------- */
+.flex-container-flex-end {
+  display: flex; /*The flex container becomes flexible by setting the display property to flex:*/
+  justify-content: flex-end; /*justify-content property*/
+  background-color: dodgerblue;
+}
+
+/*flex Items*/
+.flex-container-flex-end > div {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+/* ----------------space-around--------------------- */
+.flex-container-space-around {
+  display: flex; /*The flex container becomes flexible by setting the display property to flex:*/
+  justify-content: space-around; /*justify-content property*/
+  background-color: dodgerblue;
+}
+
+/*flex Items*/
+.flex-container-space-around > div {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+
+/* ----------------space-between--------------------- */
+.flex-container-space-between {
+  display: flex; /*The flex container becomes flexible by setting the display property to flex:*/
+  justify-content: space-between; /*justify-content property*/
+  background-color: dodgerblue;
+}
+
+/*flex Items*/
+.flex-container-space-between > div {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+
+/* ----------------space-evenly--------------------- */
+.flex-container-space-evenly {
+  display: flex; /*The flex container becomes flexible by setting the display property to flex:*/
+  justify-content: space-evenly; /*justify-content property*/
+  background-color: dodgerblue;
+}
+
+/*flex Items*/
+.flex-container-space-evenly > div {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}

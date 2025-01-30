@@ -1,0 +1,135 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: antiquewhite;
+}
+
+/*flex Container*/
+.flex-container {
+  display: flex; /*The flex container becomes flexible by setting the display property to flex:*/
+  height: 200px;
+  background-color: dodgerblue;
+}
+
+/*flex Items*/
+.flex-container > div {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+
+/* ----------------align-items: center;--------------------- */
+/*flex Container*/
+.flex-container-center {
+  display: flex; /*The flex container becomes flexible by setting the display property to flex:*/
+  height: 200px;
+  align-items: center; /*align-items property*/
+  background-color: dodgerblue;
+}
+
+/*flex Items*/
+.flex-container-center > div {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+
+/* ----------------align-items: flex-start;--------------------- */
+/*flex Container*/
+.flex-container-flex-start {
+  display: flex; /*The flex container becomes flexible by setting the display property to flex:*/
+  height: 200px;
+  align-items: flex-start; /*align-items property*/
+  background-color: dodgerblue;
+}
+
+/*flex Items*/
+.flex-container-flex-start > div {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+
+/* ----------------align-items: flex-end;--------------------- */
+/*flex Container*/
+.flex-container-flex-end {
+  display: flex; /*The flex container becomes flexible by setting the display property to flex:*/
+  height: 200px;
+  align-items: flex-end; /*align-items property*/
+  background-color: dodgerblue;
+}
+
+/*flex Items*/
+.flex-container-flex-end > div {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+
+/* ----------------align-items: stretch;--------------------- */
+/*flex Container*/
+.flex-container-stretch {
+  display: flex; /*The flex container becomes flexible by setting the display property to flex:*/
+  height: 200px;
+  align-items: stretch; /*align-items property*/
+  background-color: dodgerblue;
+}
+
+/*flex Items*/
+.flex-container-stretch > div {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+
+/* ----------------align-items: baseline;--------------------- */
+/*flex Container*/
+.flex-container-baseline {
+  display: flex; /*The flex container becomes flexible by setting the display property to flex:*/
+  height: 200px;
+  align-items: baseline; /*align-items property*/
+  background-color: dodgerblue;
+}
+
+/*flex Items*/
+.flex-container-baseline > div {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+
+/* ----------------align-items: normal;--------------------- */
+/*flex Container*/
+.flex-container-normal {
+  display: flex; /*The flex container becomes flexible by setting the display property to flex:*/
+  height: 200px;
+  align-items: normal; /*align-items property*/
+  background-color: dodgerblue;
+}
+
+/*flex Items*/
+.flex-container-normal > div {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}

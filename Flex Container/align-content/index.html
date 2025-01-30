@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+
+    <style>
+        .flex-container-perfect_centering {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 300px;
+            background-color: DodgerBlue;
+        }
+
+        .flex-container-perfect_centering>div {
+            background-color: #f1f1f1;
+            color: white;
+            width: 100px;
+            height: 100px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>The align-content Property</h1>
+
+    <section> <!-- *****************center******************** -->
+        <h3>1. align-content: center;</h3>
+        <p>align-content: center; - The flex lines are packed toward the center of the container:</p>
+
+        <div class="flex-container-center">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+            <div>4</div>
+            <div>5</div>
+            <div>6</div>
+            <div>7</div>
+            <div>8</div>
+            <div>9</div>
+            <div>10</div>
+            <div>11</div>
+            <div>12</div>
+        </div>
+    </section>
+
+    <section> <!-- *****************stretch******************** -->
+        <h3>2. align-content: stretch;</h3>
+        <p>align-content: stretch; - The flex lines stretch to take up the remaining space of the container (this is
+            default):</p>
+
+        <div class="flex-container-stretch">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+            <div>4</div>
+            <div>5</div>
+            <div>6</div>
+            <div>7</div>
+            <div>8</div>
+            <div>9</div>
+            <div>10</div>
+            <div>11</div>
+            <div>12</div>
+        </div>
+    </section>
+
+    <section> <!-- *****************flex-start******************** -->
+        <h3>3. align-content: flex-start;</h3>
+        <p>align-content: flex-start; - The flex lines are packed toward the start of the container:</p>
+
+        <div class="flex-container-flex-start">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+            <div>4</div>
+            <div>5</div>
+            <div>6</div>
+            <div>7</div>
+            <div>8</div>
+            <div>9</div>
+            <div>10</div>
+            <div>11</div>
+            <div>12</div>
+        </div>
+    </section>
+
+    <section> <!-- *****************flex-end******************** -->
+        <h3>4. align-content: flex-end;</h3>
+        <p>align-content: flex-end; - The flex lines are packed toward the end of the container:</p>
+
+        <div class="flex-container-flex-end">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+            <div>4</div>
+            <div>5</div>
+            <div>6</div>
+            <div>7</div>
+            <div>8</div>
+            <div>9</div>
+            <div>10</div>
+            <div>11</div>
+            <div>12</div>
+        </div>
+
+    </section>
+
+    <section> <!-- *****************space-between******************** -->
+        <h3>5. align-content: space-between;</h3>
+        <p>align-content: space-between; - The space between the flex lines are equal, but the first item is flush with
+            the start edge of the container, and the last item is flush with the end edge of the container:</p>
+
+        <div class="flex-container-space-between">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+            <div>4</div>
+            <div>5</div>
+            <div>6</div>
+            <div>7</div>
+            <div>8</div>
+            <div>9</div>
+            <div>10</div>
+            <div>11</div>
+            <div>12</div>
+        </div>
+
+    </section>
+
+    <section> <!-- *****************space-around******************** -->
+        <h3>6. align-content: space-around; </h3>
+        <p>align-content: space-around; - The space between the flex lines are equal, but the space before the first
+            item and after the last item is set to half of the space between the flex lines:</p>
+
+        <div class="flex-container-space-around">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+            <div>4</div>
+            <div>5</div>
+            <div>6</div>
+            <div>7</div>
+            <div>8</div>
+            <div>9</div>
+            <div>10</div>
+            <div>11</div>
+            <div>12</div>
+        </div>
+    </section>
+
+    <section> <!-- *****************space-evenly******************** -->
+        <h3>7. align-content: space-evenly; </h3>
+        <p>align-content: space-evenly; - The flex lines are evenly distributed in the flex container, with equal space
+            on top, bottom and between:</p>
+
+        <div class="flex-container-space-evenly">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+            <div>4</div>
+            <div>5</div>
+            <div>6</div>
+            <div>7</div>
+            <div>8</div>
+            <div>9</div>
+            <div>10</div>
+            <div>11</div>
+            <div>12</div>
+        </div>
+    </section>
+
+    <section>
+        <h2>Perfect Centering</h2>
+
+        <p>A flex container with both the justify-content and the align-items properties set to <em>center</em> will
+            align the item(s) in the center (in both axis).</p>
+
+        <div class="flex-container-perfect_centering">
+            <div></div>
+        </div>
+
+    </section>
+</body>
+
+</html>

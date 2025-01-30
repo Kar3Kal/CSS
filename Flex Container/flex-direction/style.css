@@ -1,0 +1,73 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: antiquewhite;
+}
+
+/* ---------------- flex-direction: row; ---------------- */
+/*flex Container*/
+.flex-container-flexDirection-raw {
+  display: flex; /*The flex container becomes flexible by setting the display property to flex:*/
+  flex-direction: row; /*flex-direction property*/
+  background-color: dodgerblue;
+}
+
+/*flex Items*/
+.flex-container-flexDirection-raw > div {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px; /* The line-height property specifies the height of a line. */
+  font-size: 30px;
+}
+
+/* ---------------- flex-direction: row-reverse; ---------------- */
+.flex-container-flexDirection-row-reverse {
+  display: flex; /*The flex container becomes flexible by setting the display property to flex:*/
+  flex-direction: row-reverse; /*flex-direction property*/
+  background-color: dodgerblue;
+}
+
+/*flex Items*/
+.flex-container-flexDirection-row-reverse > div {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px; /* The line-height property specifies the height of a line. */
+  font-size: 30px;
+}
+
+/* ---------------- flex-direction: column; ---------------- */
+.flex-container-flexDirection-column {
+  display: flex; /*The flex container becomes flexible by setting the display property to flex:*/
+  flex-direction: column; /*flex-direction property*/
+  background-color: dodgerblue;
+}
+
+/*flex Items*/
+.flex-container-flexDirection-column > div {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px; /* The line-height property specifies the height of a line. */
+  font-size: 30px;
+}
+
+/* ----------------flex-direction: column-reverse;---------------- */
+.flex-container-flexDirection-column-reverse {
+  display: flex; /*The flex container becomes flexible by setting the display property to flex:*/
+  flex-direction: column-reverse; /*flex-direction property*/
+  background-color: dodgerblue;
+}
+
+/*flex Items*/
+.flex-container-flexDirection-column-reverse > div {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px; /* The line-height property specifies the height of a line. */
+  font-size: 30px;
+}
